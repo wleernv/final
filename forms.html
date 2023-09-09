@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>	forms</title>
+	<link rel="stylesheet" type="text/css" href="css/form.css">
+</head>
+<body>
+<p>	Ми вивчаємо форми</p>
+<form name="form1">
+	<input type="text" name="text1" size="25" maxlength="30" class="text1">
+	<input type="text" name="text2" size="25" maxlength="30" value="do not read" disabled class="text1">
+	<input type="text" name="text2" size="25" maxlength="30" value="stan ateez" readonly class="text1">
+
+	<br />
+	Login<input type="text" name="login">
+	Password<input type="password" name="password">
+	<br />
+	Gender<input type="radio" name="gender" value="male">male
+	<input type="radio" name="gender" value="female">female
+	<br />
+	Language<input type="checkbox" name="lang1" value="english" class="lang">english
+	<input type="checkbox" name="lang2" value="korean">korean
+	<input type="checkbox" name="lang3" value="ukrainian">ukrainian
+	<input type="checkbox" name="lang4" value="japanese">japanese
+	<input type="checkbox" name="lang5" value="spanish"> spanish
+	<br />
+	<input type="submit" name="submit"  value="Підтвердити">
+	<input type="reset" name="reset">
+	<input type="button" name="button" value="Відправити">
+	<br />
+	<button name="submit1" type="submit">Підтвердити</button>
+	<br />
+	<input type="file" name="load">
+	<br />
+	Enter information
+	<textarea cols="20" rows="3" wrap="off"></textarea>
+	<textarea cols="40" rows="6" wrap="virtual"></textarea>
+	<textarea cols="60" rows="9" wrap="physical"></textarea>
+	<br />
+	choose language
+	<select name="lang">
+		<option value="english">english</option>
+		<option value="korean">korean</option>
+		<option value="ukrainian">ukrainian</option>
+        <option value="japanese" selected>japanese</option>
+		<option value="spanish" >spanish</option>
+	</select>
+	<br />
+	choose day of week
+	<select name="day" multiple size="7">
+		<option>Monday</option>
+		<option>Tuesday</option>
+		<option>Wednesday</option>
+		<option>Thursday</option>
+		<option>Friday</option>
+		<option>Saturday</option>
+		<option>Sunday</option>
+</select>
+</form>
+</body>
+</html>
